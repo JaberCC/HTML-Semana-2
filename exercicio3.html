@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Clone</title>
+</head>
+<body>
+    <header><h1>Formulário</h1></header>
+    <br><br>
+    <form action="" method="post">
+        <fieldset><legend>Dados Pessoais</legend>
+        <br>
+        <label for="nome">Nome</label>
+        <input type="text" name="nome" id="nome" maxlength="30" required><!--Embora 
+        no exemplo oferecido não seja possível verificar se houve limitação de 
+        caracteres, é conveniente colocar.--><br><br>
+        <label for="address">Endereço</label>
+        <input type="text" name="address" id="address" maxlength="50" required><!--Embora 
+        no exemplo oferecido não seja possível verificar se houve limitação de 
+        caracteres, é conveniente colocar.-->
+        <br><br>
+        <label for="city">Cidade</label>
+        <input type="text" name="city" id="city" maxlength="20" required><!--Embora 
+        no exemplo oferecido não seja possível verificar se houve limitação de 
+        caracteres, é conveniente colocar.-->
+        <br><br>
+        <label for="state">Estado</label>
+        <select name="state" id="state"required>
+            <option value="choose">Escolha o Estado</option>
+            <option value="ac">Acre</option>
+            <option value="am">Amazonas</option>
+            <option value="ba">Bahia</option>
+            <option value="mg">Minas Gerais</option>
+            <option value="rj">Rio de Janeiro</option>
+            <option value="sp">São Paulo</option>
+        </select>
+        </fieldset>
+        <br>
+        <fieldset><legend> Dados Profissionais</legend>
+        <label for="descrition">Natureza do Cargo</label><br><br>
+        <input type="radio" name="position" id="position" value="management">
+        <label for="management">Gerência</label>
+        <input type="radio" name="position" id="position" value="financial">
+        <label for="financial">Financeiro</label>
+        <input type="radio" name="position" id="position" value="reception">
+        <label for="reception">Recepção</label>
+        <input type="radio" name="position" id="position" value="administrative">
+        <label for="administrative">Administrativo</label>
+        <input type="radio" name="position" id="position" value="legal">
+        <label for="legal">Jurídico</label>
+        <br><br><br>
+        <label for="descrition">Área de interesse</label><br><br>
+        <input type="checkbox" name="area" id="comp" value="computacao">
+        <label for="comp">Computação</label>
+        <input type="checkbox" name="area" id="bio" value="biologia">
+        <label for="bio">Biologia</label>
+        <input type="checkbox" name="area" id="amb" value="meioambiente">
+        <label for="amb">Meio Ambiente</label>
+        <input type="checkbox" name="area" id="engen" value="engenharia">
+        <label for="enge">Engenharia</label>
+        <input type="checkbox" name="area" id="hist" value="historia">
+        <label for="hist">História</label>
+        </fieldset>
+        <br><br>
+        <label for="curriculo">Mini-currículo:</label>
+        <textarea name="comentario" id="curriculo" rows="10" cols="50"></textarea>
+        <br><br>
+        <button type="reset">Limpaa</button>
+        <button type="submit">Enviar</button>
+    </form>
+</body>
+</html>

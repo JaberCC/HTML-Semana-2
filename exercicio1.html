@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário de Cadastro</title>
+</head>
+<body>
+    <header>
+        <h3>Formulário de Cadastro</h1>
+    </header>
+    
+    <form action="/enviar" method="get">
+        <label for="nome">Nome:</label>
+        <input type="text" id="nome"name="nome"maxlength="30" required>
+        <br><br>
+
+        <label for="email">E-mail:</label>
+        <input type="email"id="email"required>
+        <br><br>
+
+        <label for="senha">Digite sua senha</label>
+        <input type="password"id="senha"name="senha"minlength="8"required>
+        <br><br>
+
+        <label for="confirmna">Confirme sua senha</label>
+        <input type="password"id="confirma"name="confirma"minlength="8"required>
+        <br><br>
+
+    <section>
+        <h3>Selecione seu tipo sanguíneo</h3>
+    </section>    
+    <input type="radio" id="tipos"name="tipo"value="A+">  
+    <label for="A+">A+</label>
+
+    <input type="radio" id="tipos"name="tipo"value="A-">  
+    <label for="A-">A-</label>
+
+    <input type="radio"id="tipos"name="tipo"value="B+"> 
+    <label for="B+">B+</label>
+
+    <input type="radio"id="tipos" name="tipo"value="B-">
+    <label for="B-">B-</label><br>
+
+    <input type="radio"id="tipos"name="tipo"value="AB+">
+    <label for="AB+">AB+</label>
+    
+    <input type="radio" id="tipos" name="tipo" value="AB-">
+    <label for="AB-">AB-</label>
+
+    <input type="radio" id="tipos"name="tipo" value="O+">
+    <label for="O+">O+</label>
+
+    <input type="radio" id="tipos" name="tipo" value="O-">
+    <label for="O-">O-</label><br><br>
+
+    <h3>Caso concorde, aceite os termos de uso.</h3>
+    <input type="checkbox" name="termo" id="termosdeuso" required>
+    <label for="termosdeuso">Concordo com os termos.</label><br><br>
+
+    <h4>Caso deseje receber nossas notificações, selecione abaixo.</h4>
+    <input type="checkbox" name="promocoes" id="email" required>
+    <label for="email">Desejo ser notificado das promoções.</label><br><br><br>
+
+
+    <button type="submit">Enviar</button>
+    <button type="reset">Limpar</button>
+
+    </form>
+</body>
+</html>
