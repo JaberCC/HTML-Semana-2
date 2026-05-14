@@ -12,6 +12,6 @@ Para a seleção do Estado, o uso da tag label, seguida de select e option resol
 Novamente o uso da tag fieldset seguida de legend possibilitou a moldura na seção de Dados Profissionais.
 Com uso do input type radio, foi possível que se selecionasse a Natures do Cargo.
 Já com o checkbox o usuário define a Área de Interesse. No visual o type radio deixa os marcadores em círculo e o checkbox em formato quadrado.
-O label para o Mini-currículo oe o textarea para a inserção do texto, com limitação de linhas e colunas.
+O label para o Mini-currículo e o textarea para a inserção do texto, com limitação de linhas e colunas.
 Por fim, os botões type reset e submit para a limpeza e envio do formulário.
 
