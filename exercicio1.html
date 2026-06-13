@@ -11,6 +11,7 @@
     </header>
     
     <form style="background-color: aquamarine;" action="/enviar" method="get">
+        <fieldset>
         <label for="nome">Nome:</label>
         <input type="text" id="nome"name="nome"maxlength="30" required>
         <br><br>
@@ -53,18 +54,20 @@
 
     <input type="radio" id="tipos" name="tipo" value="O-">
     <label for="O-">O-</label><br><br>
+    </fieldset>
 
     <h3>Caso concorde, aceite os termos de uso.</h3>
     <input type="checkbox" name="termo" id="termosdeuso" required>
     <label for="termosdeuso">Concordo com os termos.</label><br><br>
 
     <h4>Caso deseje receber nossas notificações, selecione abaixo.</h4>
-    <input type="checkbox" name="promocoes" id="email" required>
-    <label for="email">Desejo ser notificado das promoções.</label><br><br><br>
+    <input type="checkbox" name="promocoes" id="email" checked>
+    <label for="email">Desejo ser notificado das promoções.</label>
+    <br><br><br>
 
 
-    <button style="color: blue; background-color: aqua;"" type="submit">Enviar</button>
-    <button type="reset">Limpar</button>
+    <button style="color: blue; background-color: aqua;"" type="submit"><strong>Enviar</strong></button>
+    <button style="color: blue; background-color: aqua;" type="reset"><strong>Limpar</strong></button>
 
     </form>
 </body>

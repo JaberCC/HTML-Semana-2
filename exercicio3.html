@@ -8,7 +8,7 @@
 <body>
     <header><h1>Formulário</h1></header>
     <br><br>
-    <form action="" method="post">
+    <form style="background-color: blue ; color: rgb(239, 243, 245);" method="post">
         <fieldset><legend>Dados Pessoais</legend>
         <br>
         <label for="nome">Nome</label>
@@ -36,9 +36,11 @@
             <option value="sp">São Paulo</option>
         </select>
         </fieldset>
+    </form>
         <br>
+    <form style="background-color: coral;" method="post">
         <fieldset><legend> Dados Profissionais</legend>
-        <label for="descrition">Natureza do Cargo</label><br><br>
+        <label for="descrition"><strong>Natureza do Cargo</strong></label><br><br>
         <input type="radio" name="position" id="position" value="management">
         <label for="management">Gerência</label>
         <input type="radio" name="position" id="position" value="financial">
@@ -50,7 +52,7 @@
         <input type="radio" name="position" id="position" value="legal">
         <label for="legal">Jurídico</label>
         <br><br><br>
-        <label for="descrition">Área de interesse</label><br><br>
+        <label for="descrition"><strong>Área de interesse</strong></label><br><br>
         <input type="checkbox" name="area" id="comp" value="computacao">
         <label for="comp">Computação</label>
         <input type="checkbox" name="area" id="bio" value="biologia">
@@ -62,13 +64,13 @@
         <input type="checkbox" name="area" id="hist" value="historia">
         <label for="hist">História</label>
         <br><br>
-        <label for="curriculo">Mini-currículo:</label>
+        <label for="curriculo"><strong>Mini-currículo:</strong></label>
         <textarea name="comentario" id="curriculo" rows="10" cols="50"></textarea>
         </fieldset>
         
         <br><br>
-        <button type="reset">Limpaa</button>
-        <button type="submit">Enviar</button>
+        <button style="background-color: rgb(11, 32, 216); color: bisque;" type="reset"><strong>Limpar</strong></button>
+        <button style="background-color: rgb(11, 32, 216); color: bisque;"type="submit"><strong>Enviar</strong></button>
     </form>
 </body>
 </html>
